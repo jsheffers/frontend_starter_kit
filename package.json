@@ -1,0 +1,15 @@
+{
+  "name": "plugins",
+  "version": "0.0.1",
+  "devDependencies": {
+    "del": "*",
+    "gulp": "^3.9.0",
+    "gulp-hologram": "*",
+    "gulp-load-plugins": "*",
+    "gulp-notify": "*",
+    "gulp-sass": "*",
+    "gulp-uglify": "*",
+    "node-sass": "*",
+    "hologram-github-theme": "*"
+  }
+}

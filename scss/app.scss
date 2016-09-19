@@ -1,0 +1,124 @@
+body {
+  font-family: sans-serif;
+}
+
+/*doc
+---
+title: Card
+name: card
+category: Components
+---
+
+Description of what a card should be.
+
+```html_example
+<div class="c-card">Card</div>
+```
+*/
+
+.c-card {
+  background: #777;
+  color: #fff;
+  padding: 2rem;
+}
+
+
+/*doc
+---
+title: Overview
+name: 0_components
+category: Components
+---
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis doloribus nesciunt alias, amet voluptatem placeat, cumque vel vero libero suscipit architecto earum facere dolorem est nisi, ipsa totam vitae quisquam!
+
+*/
+
+
+/*doc
+---
+title: Lists
+name: lists
+category: Components
+---
+
+Contains styling variations of the list component.
+
+## Green list
+Example of the list component.
+
+```html_example
+<ul class="c-list">
+  <li class="c-list__item">List item 1</li>
+  <li class="c-list__item">List item 2</li>
+  <li class="c-list__item">List item 3</li>
+</ul>
+```
+
+## Purple list
+Example of the purple list component.
+
+```html_example
+<ul class="c-list--purple">
+  <li class="c-list__item">List item 1</li>
+  <li class="c-list__item">List item 2</li>
+  <li class="c-list__item">List item 3</li>
+</ul>
+
+```
+*/
+
+.c-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  &__item {
+    color: green;
+  }
+}
+
+.c-list--purple {
+  @extend .c-list;
+
+  .c-list__item { color: purple; font-size: 2rem; }
+}
+
+/*doc
+---
+title: Buttons
+name: buttons
+category: Components
+---
+
+This is an example of how to use ```html_example_table``` to output the code snippet and rendered output next to each
+other in a table.
+
+```html_example_table
+<button class="c-btn c-btn--default">Button</button>
+
+<a class="c-btn c-btn--default" href="#">Link</a>
+```
+
+*/
+
+.c-btn {
+  display: inline-block;
+
+  &--default  {
+    background: darken(pink, 20%);
+    border: 0;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: normal;
+    padding: .5rem 1rem;
+    text-decoration: none;
+
+    &:hover {
+      background: darken(pink, 30%);
+    }
+  }
+}
+
