@@ -1,6 +1,6 @@
 # Front-end Starter Kit
 
-This starter kit was created as starting point for "How to generate a style guide using Hologram & Gulp" blog post on the Brick Factory blog.  The post walks you through how to set up Hologram with this system so you can quickly get up and running with build system 
+This starter kit was created as starting point for "[How to generate a style guide using Hologram & Gulp](http://blog.thebrickfactory.com/2016/09/generate-style-guide-using-hologram-gulp/)" blog post on the Brick Factory blog.  The post walks you through how to set up Hologram with this system so you can quickly get up and running with build system 
 
 ## Features
 
